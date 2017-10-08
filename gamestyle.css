@@ -1,0 +1,156 @@
+
+.jumbotitle{
+  color: white;
+  font-size: 64px;
+}
+
+.jumbosub{
+  color: white;
+  font-size: 38px;
+}
+
+.btn{
+  color:white;
+  font-size:26px;
+  font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+p{
+ color: white;
+ font-size: 20px;
+ max-width: 1000px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Work Sans', sans-serif;
+ }
+
+h1{
+  color:white;
+  font-size: 44px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+h2{
+  color:white;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-image: url(brickbackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+hr { width:100%; height:1px; background: #fff }
+
+
+.navimage{
+  height: 50px;
+  width: 50px;
+}
+
+.bg-light {
+    background-color: #FFFFFF!important;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.casefile{
+  width:1000px;
+}
+
+.evidencewall{
+  width: 1000px;
+}
+
+.imagefullwidth{
+  width: 100%;
+}
+
+.imagemedium{
+  width: 500px;
+}
+
+.imagelarge{
+  display:block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.imagecircle {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.caseimage{
+    display:block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.button{
+  display:flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.casecontent{
+  margin-top:50px;
+}
+
+.gameheader{
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.9);
+    height:60px;
+}
+
+@media screen and (max-width:1200px){
+  .gameheader{
+   visibility: hidden;
+   clear: both;
+   float: left;
+   margin: 10px auto 5px 20px;
+   width: 28%;
+   display: none;
+  }
+}
+
+.icon{
+  height:60px;
+}
+
+.gametitle{
+  font-size: 30px;
+  line-height:60px;
+}
+
+.textbox{
+  padding: 25px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.textbox-center{
+  padding: 25px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+h4{
+  margin-top: 5px;
+  color: #6fa5e2;
+  font-weight: bolder;
+}
+
+.navbar-brand{
+  font-family: 'Cinzel', serif;
+  margin-right: 40px;
+}

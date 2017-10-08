@@ -1,41 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <!--Custom CSS -->
+  <link rel="stylesheet" href="gamestyle.css">
+
+  <!--Load Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Noto+Sans:700|Work+Sans" rel="stylesheet">
+
+  <!--Load FontAwesome.io-->
+  <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
+
+  <!-- Bootstrap JS Links -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
   <title>Who is Doug Olivier?</title>
 </head>
 
 <body>
-<h1>In Chapel Hill, NC</h1>
+  <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Doug Olivier</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<!-- This is a comment line. Press Ctrl / to create it quickly -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="gamestart.html">Play The Game <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/dougolivier" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<h3>Great work, detective. I knew we could count on you.</h3>
 
-<p>
-  <strong>New Evidence:</strong><br>
-  From your interviews and the files you've recovered, we've been able to piece together some information about the target. We've confirmed that Doug received his undergraduate degree from UNC Chapel Hill in 2011, majoring in business with a minor in public policy. The school's records show that Doug was active during his time there, with documentation of two merit scholarships and internships with two local technology companies in addition to his coursework.
-  <br>
-  <br>
-  We also found some conflicting documents placing him at Chulalongkorn University in Bangkok, Thailand, but this may be a diversion meant to throw us off the trail. After some research, we determined that he was only there for one semester of study abroad, and spent the remainder of his time in North Carolina.
-  <br>
-  <br>
-  The unlabeled video camera memory card you discovered at the scene was a vital breakthrough in understanding the target's character and personal interests. Our analysts discovered old pre-production video footage of Doug in a student-run sketch comedy show broadcast on local television. There are also recordings of him playing guitar at an open-mic night on campus. It appears the target's talents may stretch further than we originally thought. The remainder of the video was footage from the University's football team.
-</p>
+<!-- Game Header -->
+<div class="gameheader">
+  <div class="container">
+      <div class="row">
 
-<img src="Case File BeforeCapitalOne.jpg" alt="Case File" height="750">
+          <div class="col-sm-1">
+            <img class="icon" src="magnifyingglass.png">
+          </div>
 
-<p>
-  <strong>Clues: </strong> Using the student ID and credentials from the files you provided, we were able to access UNC's email server and uncover a few emails from Doug's senior year. There was significant communication between him and the company Capital One. We believe this might be the lead that gives us the next big breakthrough.
-  <br>
-  <br>
-  <strong>Task: </strong> Your next task is to fly to Capital One's corporate headquarters outside of Washington DC to investigate further.
-</p>
+          <div class="col-sm-11">
+            <h1 class="gametitle"><strong>WHO IS DOUG OLIVIER?: </strong> An Interactive Resume Experience</h1>
+          </div>
 
-<img src="Evidence Wall 2.jpg" alt="Evidence Wall" height="600">
+      </div>
+  </div>
+</div>
 
-<form action="capitalone.html">
-    <input type="submit" value="Fly to Capital One HQ" />
-</form>
+
+<!-- Evidence Wall -->
+<img class="imagefullwidth" src="Evidence Wall 1.jpg">
+
+
+
+<div class="casecontent">
+    <div class="container">
+      <div class="textbox">
+          <h2>Great work detective. I knew we could count on you.</h2>
+
+          <br>
+
+          <div class="row">
+            <div class="col-sm-2">
+                <h4>Information</h4>
+            </div>
+            <div class="col-sm-10">
+                <p>
+                  From your interviews and the files you've recovered, we've been able to piece together some information about the target. We've confirmed that Doug received his undergraduate degree from UNC Chapel Hill in 2011, majoring in business with a minor in public policy. The school's records show that Doug was active during his time there, with documentation of two merit scholarships and internships with two local technology companies in addition to his coursework.
+                </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+                <h4>Red Herring?</h4>
+            </div>
+            <div class="col-sm-10">
+                <p>
+                  We also found some conflicting documents placing him at Chulalongkorn University in Bangkok, Thailand, but this may be a diversion meant to throw us off the trail. After some research, we determined that he was only there for one semester of study abroad, and spent the remainder of his time in North Carolina.
+                </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+                <h4>Evidence</h4>
+            </div>
+            <div class="col-sm-10">
+                <p>
+                  The unlabeled video camera memory card you discovered at the scene was a vital breakthrough in understanding the target's character and personal interests. Our analysts discovered old pre-production video footage of Doug in a student-run sketch comedy show broadcast on local television. There are also recordings of him playing guitar at an open-mic night on campus. It appears the target's talents may stretch further than we originally thought. The remainder of the video was footage from the University's football team.
+                </p>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+<!-- Case File -->
+
+  <div class="container">
+      <img class="imagefullwidth" src="casefile1.png">
+  </div>
+
+<div class="casecontent">
+      <div class="container">
+            <div class="textbox">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <h4>Clues</h4>
+                    </div>
+                    <div class="col-sm-11">
+                        <p>
+                          Using the student ID and credentials from the files you provided, we were able to access UNC's email server and uncover a few emails from Doug's senior year. There was significant communication between him and the company Capital One. We believe this might be the lead that gives us the next big breakthrough.
+                        </p>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                      <div class="col-sm-1">
+                          <h4>Task</h4>
+                      </div>
+                      <div class="col-sm-11">
+                          <p>
+                            Fly to Capital One's corporate headquarters outside of Washington DC to investigate further.
+                          </p>
+                      </div>
+                    </div>
+
+
+            </div>
+      </div>
+</div>
+
+
+<div class="button">
+      <p>
+
+        <a class="btn btn-primary" href="capitalone.html">
+          <i class="fa fa-plane" aria-hidden="true"></i>
+          &nbsp;
+          Fly to Capital One HQ</a>
+      </p>
+</div>
 
 </body>
 </html>

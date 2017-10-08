@@ -1,34 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  <!--Custom CSS -->
+  <link rel="stylesheet" href="gamestyle.css">
+
+  <!--Load Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:700|Noto+Sans:700|Work+Sans" rel="stylesheet">
+
+  <!--Load FontAwesome.io-->
+  <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
+
+  <!-- Bootstrap JS Links -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
   <title>Who is Doug Olivier?</title>
 </head>
 
 <body>
-<h1>At Adobe Office, San Francisco</h1>
+  <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Doug Olivier</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<!-- This is a comment line. Press Ctrl / to create it quickly -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="gamestart.html">Play The Game <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/dougolivier" target="_blank">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<h3>No sign of the target in San Francisco. It appears we've missed him by mere days.</h3>
 
-<p>
-  <strong>New Evidence:</strong><br>
+<!-- Game Header -->
+<div class="gameheader">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-sm-1">
+            <img class="icon" src="magnifyingglass.png">
+          </div>
+
+          <div class="col-sm-11">
+            <h1 class="gametitle"><strong>WHO IS DOUG OLIVIER?: </strong> An Interactive Resume Experience</h1>
+          </div>
+
+      </div>
+  </div>
+</div>
 
 
-</p>
+<!-- Evidence Wall -->
+<img class="imagefullwidth" src="Evidence Wall Final.jpg">
 
-<img src="Case File Final.jpg" alt="Case File" height="750">
 
-<p>
-  <strong>Clues: </strong><br>
 
-  <strong>Task: </strong> Return to Northwestern University and present the target with an offer for employment. Quick, before he eludes us yet again!
+<div class="casecontent">
+    <div class="container">
+      <div class="textbox">
+          <h2>No sign of the target in San Francisco. We missed him by mere days.</h2>
 
-</p>
+      </div>
+    </div>
+</div>
 
-<form action="final.html">
-    <input type="submit" value="Return to Northwestern" />
-</form>
+<!-- Case File -->
+  <div class="container">
+      <img class="imagefullwidth" src="casefilefinal.png">
+  </div>
+
+<div class="casecontent">
+      <div class="container">
+            <div class="textbox">
+                  <h2>Insert Text Here</h2>
+
+            </div>
+      </div>
+</div>
+
+
+<div class="button">
+      <p>
+
+        <a class="btn btn-primary" href="final.html">
+          <i class="fa fa-plane" aria-hidden="true"></i>
+          &nbsp;
+          Return to Northwestern</a>
+      </p>
+</div>
 
 </body>
 </html>
