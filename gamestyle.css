@@ -84,7 +84,8 @@ hr { width:100%; height:1px; background: #fff }
 .imagelarge{
   display:block;
   margin: 0 auto;
-  width: 70%;
+  width: 100%;
+  max-width: 600px;
 }
 
 .imagecircle {
@@ -95,6 +96,7 @@ hr { width:100%; height:1px; background: #fff }
 .caseimage{
     display:block;
     margin: 0 auto;
+    width: 100%;
     max-width: 500px;
 }
 
@@ -103,6 +105,7 @@ hr { width:100%; height:1px; background: #fff }
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .casecontent{
@@ -159,11 +162,9 @@ h4{
   margin-right: 40px;
 }
 
-.buttonmatch{
-  width: 350px;
-}
 
 .btn-small{
   font-size: 24px;
   margin: 10px;
+  justify-content: center;
 }

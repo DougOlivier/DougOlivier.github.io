@@ -108,7 +108,13 @@ hr { width:100%; height:1px; background: #fff }
 
 .imagecircle {
     width: 250px;
+    border-style: solid;
     border-radius: 50%;
+    border-width: 1px;
+    border-color: black;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 
 .imageresume {
@@ -117,10 +123,11 @@ hr { width:100%; height:1px; background: #fff }
     border-radius: 50%;
     border-width: 1px;
     border-color: black;
+    margin-bottom: 15px;
 }
 
 .sectionheader{
-  text-align: left;
+  text-align: center;
   font-size: 34px;
 }
 
